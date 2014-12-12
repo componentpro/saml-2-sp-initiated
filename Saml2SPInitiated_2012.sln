@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityProvider_2012", "IdentityProvider\IdentityProvider_2012.csproj", "{13D45029-B4A3-4389-B15E-B872C84E39A0}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceProvider_2012", "ServiceProvider\ServiceProvider_2012.csproj", "{55802BAE-9CCE-4360-AD6C-814E333AEB96}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13D45029-B4A3-4389-B15E-B872C84E39A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D45029-B4A3-4389-B15E-B872C84E39A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D45029-B4A3-4389-B15E-B872C84E39A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D45029-B4A3-4389-B15E-B872C84E39A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55802BAE-9CCE-4360-AD6C-814E333AEB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55802BAE-9CCE-4360-AD6C-814E333AEB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55802BAE-9CCE-4360-AD6C-814E333AEB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55802BAE-9CCE-4360-AD6C-814E333AEB96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
